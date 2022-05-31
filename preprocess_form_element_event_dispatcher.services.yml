@@ -1,0 +1,5 @@
+services:
+  preprocess_form_element_event_dispatcher.preprocess.factory.user:
+    class: \Drupal\preprocess_form_element_event_dispatcher\Event\Factory\FormElementPreprocessEventFactory
+    tags:
+      - { name: preprocess_event_factory }
